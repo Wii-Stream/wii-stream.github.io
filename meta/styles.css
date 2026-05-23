@@ -1,0 +1,31 @@
+@font-face {font-family:'Shop';src:url('shop.ttf') format('truetype');font-display:swap;font-weight:normal;font-style:normal;}
+
+body {scroll-behavior:smooth;text-align:center;font-family:sans-serif;font-family:'Shop',sans-serif;overflow-x:hidden;transition:.1s ease-in-out;}
+
+div.row {width:50%;margin:auto}
+div.box {line-height:23.3px;background-color:white;border:solid 2px #34BEED;border-radius:2px;box-shadow:0 0 10px #2525255d;box-sizing:border-box;text-align:center;margin:0 auto;margin-top:8px;overflow:auto;}
+
+button {font-family:'Shop',sans-serif;font-size: 30px; border-radius: 50px; padding: 15px; color: #505050; font-weight: bold; background: linear-gradient(to bottom, #f6f6f6 0%, #eaeaea 35%, #c9c9c9 65%, #dadada 100%);border: solid 3px gray;cursor: pointer;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);transition: transform 0.2s ease, box-shadow 0.2s ease;}
+button:hover {background: linear-gradient(to bottom, #c2e6f7 0%, #b8d8e7 35%, #a1bbc7 65%, #aecdd8 100%);border: solid 3px #577481;transform: scale(1.02);}
+button:active {border: solid 3px gray;background: linear-gradient(to bottom, #f6f6f6 0%, #eaeaea 35%, #c9c9c9 65%, #dadada 100%);transform: scale(0.99); transition: transform 0.05s ease, box-shadow 0.05s ease;}
+
+table {width:100%;}
+tr {margin-top:20px;}
+td, tr, table {padding:0;border-collapse:collapse}
+table td.break {background:gray;padding:1px;}
+table td.pad {background:white;padding:1px;}
+table td {text-align:center;padding:2px;}
+table td.title {text-align:center;padding:15px;}
+
+header {padding:5px;color:white;text-align:left;}
+header h2 {margin:0 auto;padding-left:0;line-height:29px;color:white}
+footer {color:grey}
+
+a {color:#34BEED;font-weight:bold;}
+::selection{color:#323232;background:#34BEED;}
+h1 {color:#34BEED;font-size:30px;}
+hr {border-color:grey;}
+
+
+@media (max-width:768px) {div.row {width:95%} }
+@media (min-width:1500px) {div.row {width:40%};}
