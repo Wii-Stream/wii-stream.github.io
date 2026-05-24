@@ -13,7 +13,7 @@ table {width:100%;}
 tr {margin-top:20px;}
 td, tr, table {padding:0;border-collapse:collapse}
 table td.break {background:gray;padding:1px;}
-table td.pad {background:white;padding:1px;}
+table td.pad {padding-top:10px;padding-bottom:10px;user-select:none;}
 table td {text-align:center;padding:2px;}
 table td.title {text-align:center;padding:15px;}
 
